@@ -1,0 +1,15 @@
+Vendor::Spec.new do |s|
+
+  s.name        = "DCIntrospect"
+  s.version     = "0.1"
+
+  s.authors     = "keithpitt"
+  s.email       = "me@keithpitt.com"
+  s.description = "Introspect is small set of tools for iOS that aid in debugging user interfaces built with UIKit. It's especially useful for UI layouts that are dynamically created or can change during runtime, or for tuning performance by finding non-opaque views or views that are re-drawing unnecessarily. It's designed for use in the iPhone simulator, but can also be used on a device."
+
+  s.homepage    = "domesticcat.com.au/projects/introspect"
+  s.source      = "https://github.com/keithpitt/DCIntrospect"
+
+  s.files       = `git ls-files DCIntrospect`.split("\n")
+
+end
